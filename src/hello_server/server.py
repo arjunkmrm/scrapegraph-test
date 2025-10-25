@@ -393,3 +393,13 @@ def create_server():
             client.close()
 
     return server
+
+
+def main():
+    """Main entry point for running the ScapeGraph MCP server with stdio transport."""
+    server = create_server()
+    server.run(transport="stdio")
+
+
+if __name__ == "__main__":
+    main()
