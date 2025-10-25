@@ -1,6 +1,15 @@
 # hello
+[![smithery badge](https://smithery.ai/badge/@arjunkmrm/scrapegraph-test)](https://smithery.ai/server/@arjunkmrm/scrapegraph-test)
 
 An MCP server built with [Smithery CLI](https://smithery.ai/docs/getting_started/quickstart_build_python)
+
+## Installing via Smithery
+
+To install hello automatically via [Smithery](https://smithery.ai/server/@arjunkmrm/scrapegraph-test):
+
+```bash
+npx -y @smithery/cli install @arjunkmrm/scrapegraph-test
+```
 
 ## Prerequisites
 
